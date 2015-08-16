@@ -1,0 +1,59 @@
+body{
+  padding: 0px 0px 0px 0px;
+  background: url("assets/images/bg.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.social-links{
+  margin-top: 2em;
+}
+
+.social-links div{
+  padding-bottom: 1em;
+}
+
+.footer {
+  font-family: "Nunito";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: white;
+}
+
+.logo{
+  vertical-align: middle;
+}
+
+@media screen and (max-width:750px){
+  .logo{
+    width: 100px;
+  }
+
+  .footer h2{
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width:360px){
+  .social-links{
+    float: right;  
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .logo{
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .logo{
+    width: 80px;
+  }
+
+  .footer h2{
+    font-size: 12pt;
+  }
+}
