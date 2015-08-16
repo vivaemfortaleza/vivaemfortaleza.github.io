@@ -51,9 +51,9 @@ video {
   }
 }
 
-@media screen and (max-width:360px){
-  .social-links{
-    float: right;
+@media screen and (max-width:500px){
+  .social-logo{
+    width: 40px;
   }
 }
 
@@ -63,17 +63,32 @@ video {
   }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:640px){
   .logo{
     width: 80px;
   }
 
-  .footer h2{
+  .footer h2 span{
     font-size: 12pt;
+  }
+
+  .social-logo{
+    width: 40px;
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width:360px){
+  .social-logo{
+    width: 32px;
+  }
+
+  .footer h2 span{
+    font-size: 10pt;
+  }
+}
+
+
+@media screen and (max-device-width: 800px){
   #bg-video{
     display: none;
   }
